@@ -1,0 +1,7 @@
+import numpy as np
+
+# Create test data
+test_data = np.random.normal(size=(2, 224, 224, 3))
+
+# Save test data to file
+np.save('tests/test_data.npy', test_data)
